@@ -1,0 +1,44 @@
+.itsm_item {
+    width: 50%;
+    position: relative;
+    height: auto;
+    padding-top: 1%;
+    display: inline-block;
+}
+
+.itsm_alerta {
+    width: 100%;
+    position: relative;
+    height: 0px;
+    padding: 1%;
+    display: none;
+    opacity: 3;
+    height: 10%;
+    transition-timing-function: ease;
+}
+
+.itsm_width_100 {
+    width: 100%;
+}
+
+.itsm_textarea {
+    height: 19vh;
+    width: 95%;
+    resize: none;
+    float: left;
+    border: 1px solid #efefef;
+}
+
+.itsm_button_comment {
+    border: none;
+    color: black;
+    background-color: white;
+    margin: 0.5%;
+    width: 30%;
+    padding: 3%;
+}
+
+.itsm_button_comment:hover {
+    color: black;
+    background-color: whitesmoke;
+}
